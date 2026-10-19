@@ -1,0 +1,38 @@
+body{
+	margin: 20px;
+	font-family: Verdena, Geneva, Tahoma, sans-serif;
+}
+
+.avatar{
+	width: 150px;
+}
+
+.business-card{
+	width: 480px;
+
+	/* Margin: vertical(top / bottom) horizontal(left / right) */
+	margin: 0 auto;
+
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background: rgb(221, 161, 94); 
+	color: rgb(148, 163, 184);
+	border-bottom: 6px solid rgb(15, 23, 42);
+
+	.container{
+		width: 430px;
+
+		/* Margin: vertical(top / bottom) horizontal(left / right) */
+		margin: 0 auto;
+
+		padding: 20px;
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		background: rgb(255, 255, 255); 
+		color: rgb(148, 163, 184);
+		border-bottom: 6px solid rgb(148, 163, 184);
+	}
+}
